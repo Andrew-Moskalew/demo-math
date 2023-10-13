@@ -3,8 +3,13 @@ public class Calc {
     int summ(int a, int b) {
         return a + b;
     }
-    int summ(String a, String b) {
 
+    String summ(String a, String b) {
+        int i = Integer.parseInt(a);
+        int y = Integer.parseInt(b);
+        int z = i + y;
+        String r = Integer.toString(z);
+        return r;
     }
 
     double summ(double a, double b) {
