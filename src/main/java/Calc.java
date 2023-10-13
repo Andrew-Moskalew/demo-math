@@ -5,11 +5,11 @@ public class Calc {
     }
 
     String summ(String a, String b) {
-        int i = Integer.parseInt(a);
-        int y = Integer.parseInt(b);
-        int z = i + y;
-        String r = Integer.toString(z);
-        return r;
+        int stra = Integer.parseInt(a);
+        int strb = Integer.parseInt(b);
+        int ibtSumm = stra + strb;
+        String strSumm = Integer.toString(ibtSumm);
+        return strSumm;
     }
 
     double summ(double a, double b) {
