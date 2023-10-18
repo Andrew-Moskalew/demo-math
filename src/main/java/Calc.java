@@ -4,14 +4,6 @@ public class Calc {
         return a + b;
     }
 
-    String summ(String a, String b) {
-        int stra = Integer.parseInt(a);
-        int strb = Integer.parseInt(b);
-        int ibtSumm = stra + strb;
-        String strSumm = Integer.toString(ibtSumm);
-        return strSumm;
-    }
-
     double summ(double a, double b) {
         return (double) a + b;
     }
@@ -57,18 +49,30 @@ public class Calc {
     }
 
     double divide(double a, double b) {
-        return (double) a / b;
+        if (b == 0) {
+            return 555555;
+        } else
+            return (double) a / b;
     }
 
     double divide(int a, int b) {
-        return (double) a / b;
+        if (b == 0) {
+            return 555555;
+        } else
+            return (double) a / b;
     }
 
     double divide(int a, double b) {
-        return (double) a / b;
+        if (b == 0) {
+            return 555555;
+        } else
+            return (double) a / b;
     }
 
     double divide(double a, int b) {
-        return (double) a / b;
+        if (b == 0) {
+            return 555555;
+        } else
+            return (double) a / b;
     }
 }
